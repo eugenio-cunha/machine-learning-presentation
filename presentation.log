@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.7)  13 NOV 2017 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.19)  14 NOV 2017 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **presentation
 (./presentation.tex
 LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 6 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 4 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/22 v3.40 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1646,14 +1646,14 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 26--26
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb
-<images/arte_rupestre.png, id=113, 451.6875pt x 233.37187pt>
+<images/arte_rupestre.png, id=111, 451.6875pt x 233.37187pt>
 File: images/arte_rupestre.png Graphic file (type png)
 
 <use images/arte_rupestre.png>
 Package pdftex.def Info: images/arte_rupestre.png used on input line 4.
 (pdftex.def)             Requested size: 271.01459pt x 140.02419pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 38--38
+Overfull \hbox (0.4pt too wide) in paragraph at lines 37--37
 [][]  
  []
 
@@ -1662,18 +1662,29 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 38--38
  <./images/arte_rupestre.png>]
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb)
-Overfull \hbox (0.4pt too wide) in paragraph at lines 45--45
+ (./presentation.vrb
+<images/previsao.png, id=118, 445.665pt x 299.61937pt>
+File: images/previsao.png Graphic file (type png)
+
+<use images/previsao.png>
+Package pdftex.def Info: images/previsao.png used on input line 4.
+(pdftex.def)             Requested size: 222.83195pt x 149.80931pt.
+)
+Overfull \hbox (0.4pt too wide) in paragraph at lines 50--50
 [][]  
+ []
+
+
+Overfull \vbox (8.39049pt too high) detected at line 50
  []
 
 [7
 
-]
+ <./images/previsao.png>]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb)
-Overfull \hbox (0.4pt too wide) in paragraph at lines 49--49
+Overfull \hbox (0.4pt too wide) in paragraph at lines 54--54
 [][]  
  []
 
@@ -1760,20 +1771,20 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 28380E0C8BF77E5A2A5598FED2E86B82;560.
  ) 
 Here is how much of TeX's memory you used:
- 31692 strings out of 494884
- 756920 string characters out of 6179237
- 954578 words of memory out of 5000000
- 34192 multiletter control sequences out of 15000+600000
+ 31697 strings out of 494925
+ 757027 string characters out of 6180251
+ 954428 words of memory out of 5000000
+ 34189 multiletter control sequences out of 15000+600000
  20153 words of font info for 47 fonts, out of 8000000 for 9000
- 38 hyphenation exceptions out of 8191
+ 16 hyphenation exceptions out of 8191
  79i,13n,102p,1861b,736s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lxfonts/leclb8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/lxfonts/lecli8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/lxfonts/leclq8.pfb>
-Output written on presentation.pdf (19 pages, 1251191 bytes).
+Output written on presentation.pdf (19 pages, 1375977 bytes).
 PDF statistics:
  223 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
+ 177 compressed objects within 2 object streams
  51 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
