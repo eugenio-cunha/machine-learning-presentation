@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: presentation.aux
+The style file: abbrv.bst
+Database file #1: bib.bib
+Warning--empty school in mendes2007matematica
+Warning--there's a number but no volume in ribeiro2007repensando
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            507 strings with 4076 characters,
+and the built_in function-call counts, 516 in all, are:
+= -- 52
+> -- 14
+< -- 0
++ -- 7
+- -- 4
+* -- 34
+:= -- 97
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 19
+empty$ -- 42
+format.name$ -- 4
+if$ -- 99
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 1
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 7
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 11
+stack$ -- 0
+substring$ -- 36
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 2
+while$ -- 6
+width$ -- 3
+write$ -- 23
+(There were 2 warnings)
