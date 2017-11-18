@@ -8,8 +8,9 @@
         \end{center}
         \end{figure}
 
-        São perceptíveis \textbf{regularidades} que repetem-se de maneira
-        \textbf{previsível} no  mundo ou em um artefato produzido pelo homem.
+        São perceptíveis \textbf{regularidades} que \textbf{repetem-se} de 
+        maneira \textbf{previsível} no mundo ou em um artefato produzido pelo 
+        homem.
     \end{frame}
 
     \begin{frame}[fragile]{Os Padrões no Mundo}
@@ -49,51 +50,60 @@
         provê técnicas capazes de aprender automaticamente a partir dos dados 
         disponíveis e produzir hipóteses uteis \cite{de2003tecnicas}.
 
-        % Monard e Baranauskas (2003) explica, Aprendizado de Máquina é uma 
-        % subárea da inteligência artificial, o algoritmo toma decisões baseado 
-        % em experiências acumuladas através da solução bem sucedida de problemas 
-        % anteriores, ou seja, o algoritmo reconhece padrões em conjuntos de 
-        % dados, generaliza e torna-se capaz de fazer previsões. 
   \end{frame}
   
   \begin{frame}[fragile]{Aprendizado de Máquina}
+
+    \centering
+    Qual é a \textbf{classe} da sétima linha?
+
     \begin{table}[]
     \centering
-    % \caption{My caption}
-    \label{my-label}
-    \begin{tabular}{l|c|c|c|c|c|c|}
-    \cline{2-7}
-                            & \textbf{Cor}           & \textbf{HEX} & \textbf{R}   & \textbf{G}   & \textbf{B}   & \textbf{Classe} \\ \hline
-    \multicolumn{1}{|l|}{1} & \cellcolor[HTML]{FF0000} & \#FF0000     & \textit{255} & \textit{0}   & \textit{0}   & Quente          \\ \hline
-    \multicolumn{1}{|l|}{2} & \cellcolor[HTML]{0000FF} & \#0000FF     & \textit{0}   & \textit{0}   & \textit{255} & Quente          \\ \hline
-    \multicolumn{1}{|l|}{3} & \cellcolor[HTML]{00FF00} & \#00FF00     & \textit{0}   & \textit{255} & \textit{0}   & Quente          \\ \hline
-    \multicolumn{1}{|l|}{4} & \cellcolor[HTML]{FAEBD7} & \#FAEBD7     & \textit{250} & \textit{235} & \textit{215} & Fria            \\ \hline
-    \multicolumn{1}{|l|}{5} & \cellcolor[HTML]{EEEEE0} & \#EEEEE0     & \textit{238} & \textit{238} & \textit{224} & Fria            \\ \hline
-    \multicolumn{1}{|l|}{6} & \cellcolor[HTML]{E0EEEE} & \#E0EEEE     & \textit{224} & \textit{238} & \textit{238} & Fria            \\ \hline
-    \multicolumn{1}{|l|}{7} & \cellcolor[HTML]{8B2252} & \#8B2252     & \textit{139} & \textit{34}  & \textit{82}  & ?               \\ \hline
+    \begin{tabular}{l|c|c|c|c|c|}
+    \cline{2-6}
+                            & \textbf{Cores}           & \textbf{R}   & \textbf{G}   & \textbf{B}   & \textbf{Classe} \\ \hline
+    \multicolumn{1}{|l|}{1} & \cellcolor[HTML]{FF0000} & \textit{255} & \textit{0}   & \textit{0}   & Quente          \\ \hline
+    \multicolumn{1}{|l|}{2} & \cellcolor[HTML]{0000FF} & \textit{0}   & \textit{0}   & \textit{255} & Quente          \\ \hline
+    \multicolumn{1}{|l|}{3} & \cellcolor[HTML]{00FF00} & \textit{0}   & \textit{255} & \textit{0}   & Quente          \\ \hline
+    \multicolumn{1}{|l|}{4} & \cellcolor[HTML]{FAEBD7} & \textit{250} & \textit{235} & \textit{215} & Fria            \\ \hline
+    \multicolumn{1}{|l|}{5} & \cellcolor[HTML]{EEEEE0} & \textit{238} & \textit{238} & \textit{224} & Fria            \\ \hline
+    \multicolumn{1}{|l|}{6} & \cellcolor[HTML]{E0EEEE} & \textit{224} & \textit{238} & \textit{238} & Fria            \\ \hline
+    \multicolumn{1}{|l|}{7} & \cellcolor[HTML]{8B2252} & \textit{139} & \textit{34}  & \textit{82}  & \textbf{???}               \\ \hline
     \end{tabular}
+    % \caption{Encontre um padrão e classifique a cor.}
+    \label{my-label}
     \end{table}
   \end{frame}
 
   \begin{frame}[fragile]{Aprendizado de Máquina}
+    \centering
+    Encontrar \textbf{padrões}, \textbf{generalizar} e \textbf{predizer}!
     \begin{table}[]
     \centering
     % \caption{My caption}
     \label{my-label}
     \begin{tabular}{l|c|c|c|c|c|c|c|}
-    \cline{2-8}
-                            & \textbf{Cor}           & \textbf{HEX} & \textbf{R}   & \textbf{G}   & \textbf{B}   & \multicolumn{1}{l|}{\textbf{SOMA}} & \textbf{Classe} \\ \hline
-    \multicolumn{1}{|l|}{1} & \cellcolor[HTML]{FF0000} & \#FF0000     & \textit{255} & \textit{0}   & \textit{0}   & \textit{255}                       & Quente          \\ \hline
-    \multicolumn{1}{|l|}{2} & \cellcolor[HTML]{0000FF} & \#0000FF     & \textit{0}   & \textit{0}   & \textit{255} & \textit{255}                       & Quente          \\ \hline
-    \multicolumn{1}{|l|}{3} & \cellcolor[HTML]{00FF00} & \#00FF00     & \textit{0}   & \textit{255} & \textit{0}   & \textit{255}                       & Quente          \\ \hline
-    \multicolumn{1}{|l|}{4} & \cellcolor[HTML]{FAEBD7} & \#FAEBD7     & \textit{250} & \textit{235} & \textit{215} & \textit{700}                       & Fria            \\ \hline
-    \multicolumn{1}{|l|}{5} & \cellcolor[HTML]{EEEEE0} & \#EEEEE0     & \textit{238} & \textit{238} & \textit{224} & \textit{700}                       & Fria            \\ \hline
-    \multicolumn{1}{|l|}{6} & \cellcolor[HTML]{E0EEEE} & \#E0EEEE     & \textit{224} & \textit{238} & \textit{238} & \textit{700}                       & Fria            \\ \hline
-    \multicolumn{1}{|l|}{7} & \cellcolor[HTML]{8B2252} & \#8B2252     & \textit{139} & \textit{34}  & \textit{82}  & \textit{255}                       & Quente          \\ \hline
+    \cline{2-7}
+                            & \textbf{Cores}           & \textbf{R}   & \textbf{G}   & \textbf{B}   & \multicolumn{1}{l|}{\textbf{Soma(RGB)}} & \textbf{Classe} \\ \hline
+    \multicolumn{1}{|l|}{1} & \cellcolor[HTML]{FF0000} & \textit{255} & \textit{0}   & \textit{0}   & \textit{255}                       & Quente          \\ \hline
+    \multicolumn{1}{|l|}{2} & \cellcolor[HTML]{0000FF} & \textit{0}   & \textit{0}   & \textit{255} & \textit{255}                       & Quente          \\ \hline
+    \multicolumn{1}{|l|}{3} & \cellcolor[HTML]{00FF00} & \textit{0}   & \textit{255} & \textit{0}   & \textit{255}                       & Quente          \\ \hline
+    \multicolumn{1}{|l|}{4} & \cellcolor[HTML]{FAEBD7} & \textit{250} & \textit{235} & \textit{215} & \textit{700}                       & Fria            \\ \hline
+    \multicolumn{1}{|l|}{5} & \cellcolor[HTML]{EEEEE0} & \textit{238} & \textit{238} & \textit{224} & \textit{700}                       & Fria            \\ \hline
+    \multicolumn{1}{|l|}{6} & \cellcolor[HTML]{E0EEEE} & \textit{224} & \textit{238} & \textit{238} & \textit{700}                       & Fria            \\ \hline
+    \multicolumn{1}{|l|}{7} & \cellcolor[HTML]{8B2252} & \textit{139} & \textit{34}  & \textit{82}  & \textit{255}                       & \textbf{Quente}          \\ \hline
     \end{tabular}
     \end{table}
   \end{frame}
 
 \subsection{Problema de Pesquisa}
   \begin{frame}[fragile]{Problema de Pesquisa}
+    \begin{figure}[H]
+    \begin{center}
+        \includegraphics[scale=0.50]{images/problema_pesquisa.png}
+    \end{center}
+    \end{figure}
+
+    Dado um \textit{corpus} de redações rotuladas, é possível \textbf{recuperar padrões} 
+    implícitos nos textos e \textbf{valorar} uma \textbf{nova amostra}?
   \end{frame}

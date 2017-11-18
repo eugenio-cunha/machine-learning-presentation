@@ -1,15 +1,45 @@
 \begin{thebibliography}{1}
 
+\bibitem{baker2011mineraccao}
+R.~Baker, S.~Isotani, and A.~Carvalho.
+\newblock Minera{\c{c}}ao de dados educacionais: Oportunidades para o brasil.
+\newblock {\em Brazilian Journal of Computers in Education}, 19(02):03, 2011.
+
+\bibitem{silvio_taynan:2017}
+S.~R. da~Silva and T.~L. Carvalho.
+\newblock Produção de texto escrito no ensino médio: Competências
+  requeridas pela avaliação de redação do enem em (des)uso no livro
+  didático de português.
+\newblock {\em Caminhos em linguística aplicada}, 16(1):1--25, 2017.
+
+\bibitem{de2017mineraccao}
+E.~M.~N. DE~BRITO.
+\newblock Minera{\c{c}}{\~a}o de textos: detec{\c{c}}{\~a}o autom{\'a}tica de
+  sentimentos em co-ment{\'a}rios nas m{\'\i}dias sociais.
+\newblock {\em Projetos e Disserta{\c{c}}{\~o}es em Sistemas de
+  Informa{\c{c}}{\~a}o e Gest{\~a}o do Conhecimento}, 6(1), 2017.
+
 \bibitem{de2003tecnicas}
 M.~de~Souto, A.~Lorena, A.~Delbem, and A.~de~Carvalho.
 \newblock T{\'e}cnicas de aprendizado de m{\'a}quina para problemas de biologia
   molecular.
 \newblock {\em Sociedade Brasileira de Computa{\c{c}}ao}, 2003.
 
+\bibitem{matsubara2003pretext}
+E.~T. Matsubara, C.~A. Martins, and M.~C. Monard.
+\newblock Pretext: Uma ferramenta para pr{\'e}-processamento de textos
+  utilizando a abordagem bag-of-words.
+\newblock {\em Techinical Report}, 209, 2003.
+
 \bibitem{mendes2007matematica}
 F.~M.~P. Mendes.
 \newblock A matem{\'a}tica na natureza.
 \newblock Master's thesis, 2007.
+
+\bibitem{pereiraface}
+M.~U. Pereira and F.~T. Ferreira.
+\newblock Face detection.
+\newblock 2015.
 
 \bibitem{ribeiro2007repensando}
 L.~Ribeiro.
