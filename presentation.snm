@@ -2,3 +2,9 @@
 \beamer@slide {my-label}{9}
 \beamer@slide {table:matriz_referencia}{12}
 \beamer@slide {table:competencia_iii}{13}
+\beamer@slide {graphic:dataset_balanced}{21}
+\beamer@slide {graphic:roc}{22}
+\beamer@slide {graphic:acuracia}{23}
+\beamer@slide {tab:matrix_naive_bayes}{24}
+\beamer@slide {tab:matrix_adaboost}{25}
+\beamer@slide {graphic:padrao}{26}
