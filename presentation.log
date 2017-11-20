@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.7)  19 NOV 2017 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.19)  20 NOV 2017 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **presentation
 (./presentation.tex
 LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 6 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 4 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/22 v3.40 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1832,7 +1832,7 @@ File: images/bag_of_words.png Graphic file (type png)
 Package pdftex.def Info: images/bag_of_words.png used on input line 4.
 (pdftex.def)             Requested size: 196.85999pt x 150.56212pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 51--51
+Overfull \hbox (0.4pt too wide) in paragraph at lines 49--49
 [][]  
  []
 
@@ -1849,7 +1849,7 @@ File: images/naive_bayes.png Graphic file (type png)
 Package pdftex.def Info: images/naive_bayes.png used on input line 4.
 (pdftex.def)             Requested size: 170.51161pt x 148.6801pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 61--61
+Overfull \hbox (0.4pt too wide) in paragraph at lines 59--59
 [][]  
  []
 
@@ -1866,7 +1866,7 @@ File: images/adaboost.png Graphic file (type png)
 Package pdftex.def Info: images/adaboost.png used on input line 4.
 (pdftex.def)             Requested size: 226.2196pt x 129.85983pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.4pt too wide) in paragraph at lines 72--72
 [][]  
  []
 
@@ -1883,12 +1883,12 @@ File: images/validacao_cruzada.png Graphic file (type png)
 Package pdftex.def Info: images/validacao_cruzada.png used on input line 4.
 (pdftex.def)             Requested size: 206.64651pt x 146.04526pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 85--85
+Overfull \hbox (0.4pt too wide) in paragraph at lines 83--83
 [][]  
  []
 
 
-Overfull \vbox (5.32086pt too high) detected at line 85
+Overfull \vbox (5.32086pt too high) detected at line 83
  []
 
 [17
@@ -2102,12 +2102,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33705 strings out of 494884
- 799130 string characters out of 6179237
- 1151923 words of memory out of 5000000
- 36062 multiletter control sequences out of 15000+600000
+ 33705 strings out of 494925
+ 799130 string characters out of 6180251
+ 1150773 words of memory out of 5000000
+ 36055 multiletter control sequences out of 15000+600000
  28363 words of font info for 64 fonts, out of 8000000 for 9000
- 38 hyphenation exceptions out of 8191
+ 16 hyphenation exceptions out of 8191
  79i,18n,111p,1861b,2386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lxfonts/lcmex8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/lxfonts/lcmmi8.pfb></usr/share/texliv
@@ -2115,7 +2115,7 @@ e/texmf-dist/fonts/type1/public/lxfonts/leclb8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/lxfonts/lecli8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/lxfonts/leclo8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/lxfonts/leclq8.pfb>
-Output written on presentation.pdf (34 pages, 2102480 bytes).
+Output written on presentation.pdf (34 pages, 2102462 bytes).
 PDF statistics:
  365 PDF objects out of 1000 (max. 8388607)
  279 compressed objects within 3 object streams
