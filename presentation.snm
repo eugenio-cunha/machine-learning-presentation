@@ -6,5 +6,6 @@
 \beamer@slide {graphic:roc}{22}
 \beamer@slide {graphic:acuracia}{23}
 \beamer@slide {tab:matrix_naive_bayes}{24}
-\beamer@slide {tab:matrix_adaboost}{25}
-\beamer@slide {graphic:padrao}{26}
+\beamer@slide {tab:matrix_naive_bayes}{25}
+\beamer@slide {tab:matrix_adaboost}{26}
+\beamer@slide {graphic:padrao}{27}

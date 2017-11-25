@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.19)  20 NOV 2017 10:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.23)  25 NOV 2017 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **presentation
 (./presentation.tex
 LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 4 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 7 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/22 v3.40 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1325,7 +1325,7 @@ File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
 e.tex
 File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
-)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
@@ -1344,7 +1344,7 @@ Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
-))
+)
 \@input{commands.aux}
 \openout2 = `commands.aux'.
 
@@ -1419,6 +1419,9 @@ LaTeX Info: Redefining \sc on input line 8.
  (./presentation.aux
 
 LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `tab:matrix_naive_bayes' multiply defined.
 
 )
 \openout1 = `presentation.aux'.
@@ -1719,12 +1722,12 @@ File: images/previsao.png Graphic file (type png)
 Package pdftex.def Info: images/previsao.png used on input line 4.
 (pdftex.def)             Requested size: 219.82071pt x 149.80931pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 53--53
+Overfull \hbox (0.4pt too wide) in paragraph at lines 54--54
 [][]  
  []
 
 
-Overfull \vbox (9.08492pt too high) detected at line 53
+Overfull \vbox (9.08492pt too high) detected at line 54
  []
 
 [7
@@ -1733,7 +1736,7 @@ Overfull \vbox (9.08492pt too high) detected at line 53
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb)
-Overfull \hbox (0.4pt too wide) in paragraph at lines 76--76
+Overfull \hbox (0.4pt too wide) in paragraph at lines 77--77
 [][]  
  []
 
@@ -1748,7 +1751,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 76--76
                    \relax 
 l.7     \label{my-label}
                         )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 97--97
+Overfull \hbox (0.4pt too wide) in paragraph at lines 98--98
 [][]  
  []
 
@@ -1765,7 +1768,7 @@ File: images/problema_pesquisa.png Graphic file (type png)
 Package pdftex.def Info: images/problema_pesquisa.png used on input line 4.
 (pdftex.def)             Requested size: 225.84319pt x 147.17447pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 109--109
+Overfull \hbox (0.4pt too wide) in paragraph at lines 110--110
 [][]  
  []
 
@@ -1973,12 +1976,27 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 192--192
 ]
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb)
-Overfull \hbox (0.4pt too wide) in paragraph at lines 217--217
+ (./presentation.vrbpdfTeX warning (ext4): destination with the same identifier
+ (name{tab:matrix_naive_bayes}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20             \label{tab:matrix_naive_bayes}
+                                               )
+Overfull \hbox (0.4pt too wide) in paragraph at lines 215--215
 [][]  
  []
 
 [25
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb)
+Overfull \hbox (0.4pt too wide) in paragraph at lines 263--263
+[][]  
+ []
+
+[26
 
 ]
 \openout4 = `presentation.vrb'.
@@ -2013,47 +2031,47 @@ Overfull \hbox (13.35776pt too wide) in paragraph at lines 43--44
  []
 
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 270--270
+Overfull \hbox (0.4pt too wide) in paragraph at lines 316--316
 [][]  
  []
 
 
-Overfull \vbox (25.35414pt too high) detected at line 270
+Overfull \vbox (25.35414pt too high) detected at line 316
  []
 
-[26
+[27
 
-]) (./frames/conclusoes.tex [27
+]) (./frames/conclusoes.tex [28
 
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb
-<images/conclusao.png, id=274, 451.6875pt x 294.34969pt>
+<images/conclusao.png, id=279, 451.6875pt x 294.34969pt>
 File: images/conclusao.png Graphic file (type png)
 
 <use images/conclusao.png>
 Package pdftex.def Info: images/conclusao.png used on input line 4.
 (pdftex.def)             Requested size: 225.84319pt x 147.17447pt.
 )
-Overfull \hbox (0.4pt too wide) in paragraph at lines 11--11
+Overfull \hbox (0.4pt too wide) in paragraph at lines 12--12
 [][]  
  []
 
 
-Overfull \vbox (5.75565pt too high) detected at line 11
+Overfull \vbox (5.75565pt too high) detected at line 12
  []
 
-[28
+[29
 
- <./images/conclusao.png>]) (./frames/trabalhos_futuros.tex [29
+ <./images/conclusao.png>]) (./frames/trabalhos_futuros.tex [30
 
 ]
 \openout4 = `presentation.vrb'.
 
 
 (./presentation.vrb
-<images/deep_learning.png, id=286, 450.18187pt x 219.06844pt>
+<images/deep_learning.png, id=291, 450.18187pt x 219.06844pt>
 File: images/deep_learning.png Graphic file (type png)
 
 <use images/deep_learning.png>
@@ -2064,19 +2082,19 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 11--11
 [][]  
  []
 
-[30
+[31
 
  <./images/deep_learning.png>]) (./frames/referencias.tex
-(./presentation.bbl) [31
+(./presentation.bbl) [32
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [3
-2
-
-
-] [33
+3
 
 
 ] [34
+
+
+] [35
 
 
 ])
@@ -2102,12 +2120,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33705 strings out of 494925
- 799130 string characters out of 6180251
- 1150773 words of memory out of 5000000
- 36055 multiletter control sequences out of 15000+600000
+ 33711 strings out of 494854
+ 799201 string characters out of 6178568
+ 1151205 words of memory out of 5000000
+ 36065 multiletter control sequences out of 15000+600000
  28363 words of font info for 64 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
+ 58 hyphenation exceptions out of 8191
  79i,18n,111p,1861b,2386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lxfonts/lcmex8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/lxfonts/lcmmi8.pfb></usr/share/texliv
@@ -2115,10 +2133,10 @@ e/texmf-dist/fonts/type1/public/lxfonts/leclb8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/lxfonts/lecli8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/lxfonts/leclo8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/lxfonts/leclq8.pfb>
-Output written on presentation.pdf (34 pages, 2102462 bytes).
+Output written on presentation.pdf (35 pages, 2104629 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 98 named destinations out of 1000 (max. 500000)
  208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

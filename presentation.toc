@@ -6,5 +6,5 @@
 \beamer@sectionintoc {2}{Trabalhos Relacionados}{11}{0}{2}
 \beamer@sectionintoc {3}{Metodologia}{18}{0}{3}
 \beamer@sectionintoc {4}{Resultados Experimentais}{20}{0}{4}
-\beamer@sectionintoc {5}{Conclus\IeC {\~o}es}{27}{0}{5}
-\beamer@sectionintoc {6}{Trabalhos Futuros}{29}{0}{6}
+\beamer@sectionintoc {5}{Conclus\IeC {\~o}es}{28}{0}{5}
+\beamer@sectionintoc {6}{Trabalhos Futuros}{30}{0}{6}
