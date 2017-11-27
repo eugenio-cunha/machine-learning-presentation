@@ -214,29 +214,6 @@
         \end{table}
     \end{frame}
 
-    % \begin{frame}[fragile]{Matriz de Confusão}
-    %     \begin{table}[H]
-    %         \centering
-    %         \begin{tabular}{cc|c|c|c|c|c|c|}
-    %         \cline{3-8}
-    %          &  & \multicolumn{6}{c|}{\textit{Predição do Naive Bayes}} \\ \cline{3-8} 
-    %          &  & \textbf{0} & \textbf{50} & \cellcolor[HTML]{f8ff00}\textbf{100} & \textbf{150} & \cellcolor[HTML]{f8ff00}\textbf{200} & $\sum_{}$  \\ \hline
-    %         \multicolumn{1}{|c|}{} & \textbf{0} & \cellcolor[HTML]{A8A8A8}63 & 44 & 12 & 12 & 7  & \textit{138} \\ \cline{2-8} 
-    %         \multicolumn{1}{|c|}{} & \cellcolor[HTML]{f8ff00}\textbf{50} & 3  & \cellcolor[HTML]{A8A8A8}99 & \cellcolor[HTML]{f8ff00}33 & 1  & \cellcolor[HTML]{f8ff00}2  & \textit{138} \\ \cline{2-8} 
-    %         \multicolumn{1}{|c|}{} & \textbf{100} & 1  & 26 & \cellcolor[HTML]{A8A8A8}82 & 15 & 14 & \textit{138} \\ \cline{2-8} 
-    %         \multicolumn{1}{|c|}{} & \textbf{150} & 3  & 10 & 17 & \cellcolor[HTML]{A8A8A8}61 & 47 & \textit{138} \\ \cline{2-8} 
-    %         \multicolumn{1}{|c|}{} & \textbf{200} & 5  & 13 & 6  & 40 & \cellcolor[HTML]{A8A8A8}74 & \textit{138} \\ \cline{2-8} 
-    %         \multicolumn{1}{|c|}{\multirow{-6}{*}{\textit{\rot{Atual}}}} & $\sum_{}$ & \textit{75} & \textit{192} & \textit{150} & \textit{129} & \textit{144} & \textit{\textbf{690}} \\ \hline
-    %         \end{tabular}
-    %         \captionsetup{labelformat=empty}
-    %         \caption{A matriz de confusão é uma importante ferramenta, na 
-    %         \textbf{avaliação dos resultados} das predições, facilita 
-    %         visualmente o entendimento e \textbf{reage aos efeitos de 
-    %         predições falsas}.}
-    %         \label{tab:matrix_naive_bayes}
-    %     \end{table}
-    % \end{frame}
-
     \begin{frame}[fragile]{Matriz de Confusão}
         \begin{table}[H]
             \centering
@@ -302,7 +279,7 @@
                     \addplot [mark=none, color=blue, solid] table[x=x, y=y, col sep=comma]{./data/2.00-8.csv};
                     \addplot [mark=none, color=blue, solid] table[x=x, y=y, col sep=comma]{./data/2.00-9.csv};
                     \addplot [mark=none, color=blue, solid] table[x=x, y=y, col sep=comma]{./data/2.00-10.csv};
-                    \legend{Classe 0,,,,,,,,,,, Classe 200,,,,,,,,,,};
+                    \legend{Nota 0,,,,,,,,,,, Nota 200,,,,,,,,,,};
                 \end{axis}
                 \end{tikzpicture}
             \end{center}
